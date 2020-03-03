@@ -2,75 +2,75 @@ package service;
 import java.util.Scanner;
 
 // Type your code
-public class Example {
+public class AstroCalculator {
 	   public static void main (String[] args) { 
 	      Scanner sc = new Scanner(System.in);
 		   int day = sc.nextInt(); 
 	      String month = sc.nextLine() ; 
 	      String email = sc.nextLine();
-	      String sign=""; 
+	      String astrosign=""; 
 
 	      if (month == "January") { 
 	         if (day < 20) 
-	         sign = "Capricorn"; 
+	         astrosign = "Capricorn"; 
 	         else
-	         sign = "Aquarius"; 
+	         astrosign = "Aquarius"; 
 	      } else if (month == "February"){ 
 	         if (day < 19) 
-	         sign = "Aquarius"; 
+	         astrosign = "Aquarius"; 
 	         else
-	         sign = "Pisces"; 
+	         astrosign = "Pisces"; 
 	      } else if(month == "March"){ 
 	         if (day < 21)  
-	         sign = "Pisces"; 
+	         astrosign = "Pisces"; 
 	         else
-	         sign = "Aries"; 
+	         astrosign = "Aries"; 
 	      } else if (month == "April"){ 
 	         if (day < 20) 
-	         sign = "Aries"; 
+	         astrosign = "Aries"; 
 	         else
-	         sign = "Taurus"; 
+	         astrosign = "Taurus"; 
 	      } else if (month == "May"){ 
 	         if (day < 21) 
-	         sign = "Taurus"; 
+	         astrosign = "Taurus"; 
 	         else
-	         sign = "Gemini"; 
+	         astrosign = "Gemini"; 
 	      } else if( month == "June"){ 
 	         if (day < 21) 
-	         sign = "Gemini"; 
+	         astrosign = "Gemini"; 
 	         else
-	         sign = "Cancer"; 
+	         astrosign = "Cancer"; 
 	      } else if (month == "July"){ 
 	         if (day < 23) 
-	         sign = "Cancer"; 
+	         astrosign = "Cancer"; 
 	         else
-	         sign = "Leo"; 
+	         astrosign = "Leo"; 
 	      } else if( month == "August"){ 
 	         if (day < 23)  
-	         sign = "Leo"; 
+	         astrosign = "Leo"; 
 	         else
-	         sign = "Virgo"; 
+	         astrosign = "Virgo"; 
 	      } else if (month == "September"){ 
 	         if (day < 23) 
-	         sign = "Virgo"; 
+	         astrosign = "Virgo"; 
 	         else
-	         sign = "Libra"; 
+	         astrosign = "Libra"; 
 	      } else if (month == "October"){ 
 	         if (day < 23) 
-	         sign = "Libra"; 
+	         astrosign = "Libra"; 
 	         else
-	         sign = "Scorpio"; 
+	         astrosign = "Scorpio"; 
 	      } else if (month == "November"){ 
 	         if (day < 22) 
-	         sign = "scorpio"; 
+	         astrosign = "scorpio"; 
 	         else
-	         sign = "Sagittarius"; 
+	         astrosign = "Sagittarius"; 
 	      } else if (month == "December"){ 
 	         if (day < 22) 
-	         sign = "Sagittarius"; 
+	         astrosign = "Sagittarius"; 
 	         else
-	         sign ="Capricorn"; 
+	         astrosign ="Capricorn"; 
 	      } 
-	      System.out.println("The astrological sign for " + day + " " + month + " is " + sign ); 
+	      System.out.println("The astrological astrosign for " + day + " " + month + " is " + astrosign ); 
 	   } 
 	}
