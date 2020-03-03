@@ -23,7 +23,7 @@ public class AstroFormController extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-/* Uncomment the below code to run your application
+//Uncomment the below code to run your application
 		String name=request.getParameter("name");
 		String gender=request.getParameter("gender");
 		String date=request.getParameter("dob1");
@@ -99,6 +99,6 @@ public class AstroFormController extends HttpServlet {
 			RequestDispatcher rd=this.getServletContext().getRequestDispatcher("/WEB-INF/Outputview.jsp");
 			request.setAttribute("astro", "<img src='./assets/virgo.svg'>");
 			rd.forward(request, response);
-		}*/
+		}
 	}
 }
